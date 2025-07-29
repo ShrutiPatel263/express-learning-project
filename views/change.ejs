@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> 
+</head>
+<body>
+    <div class="main w-full min-h-screen bg-zinc-900 p-10 text-white ">
+            <a class="text-blue-500 inline-block mb-10" href="/">Go back to home</a>
+             <form action="/editContent" method="post">
+                <input class="block px-5 py-2 mt-2 text-zink-600 resize-none bg-zinc-800 w-1/4 rounded" placeholder="filename" name="heading" value="<%= filename %>">
+                <input class="block px-5 py-2 mt-2 resize-none bg-zinc-800 w-1/4 rounded" placeholder="enter new data" name="newdata">
+                <input class='mt-2 bg-yellow-600 px-5 py-2 rounded' type="submit" value="Update">
+            </form>
+    </div>
+    
+    
+</body>
+</html>

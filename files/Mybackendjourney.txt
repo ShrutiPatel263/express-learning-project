@@ -1,0 +1,1 @@
+i start my backend journey with node.js ..first i learn about some fundamental of javascript then learn 2 node.js modukes file system & http then switch to express.js i learn about routes and middlewear get post etc then i create this project ..now i move further hope i become master in backend....keep it up
